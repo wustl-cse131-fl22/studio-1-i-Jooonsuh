@@ -16,6 +16,10 @@ public class Ordered {
 		System.out.println("Value for z?");
 		int z = in.nextInt();
 
+		
+		// if x < y < z === prints true
+		boolean isOrdered = x < y && y < z;
+		System.out.println(isOrdered);
 	}
 
 }
